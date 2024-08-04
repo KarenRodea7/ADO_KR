@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
                     String datos = user.getText().toString();
                     String contr = pass.getText().toString();
 
-                    if(datos.equals("UsuarioADO") & contr.equals("PSWDADO")){
+                    if(datos.equals("") & contr.equals("")){
                         startActivity(intent);
                         Toast.makeText(getApplicationContext(), "Bienvenido al Menú "+datos, Toast.LENGTH_LONG).show();
                     }else {
