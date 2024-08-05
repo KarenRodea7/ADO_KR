@@ -89,7 +89,7 @@
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/Fecha"
-                android:layout_marginRight="20dp"
+                android:layout_marginRight="10dp"
                 android:inputType="date"
                 android:textSize="25dp"/>
             <Button
@@ -157,7 +157,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="70dp"
                 android:id="@+id/Cancelar"
-                android:text="Cancelar"
+                android:text="Regresar"
                 android:backgroundTint="#FF0000"
                 android:textSize="15dp"/>
             <Button

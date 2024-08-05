@@ -44,6 +44,11 @@ public class Venta extends AppCompatActivity {
         final String[] lugares = {"Mérida", "CDMX", "Villahermosa", "Cancún", "Córdoba"};
         origen.setAdapter(new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,lugares));
         destino.setAdapter(new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,lugares));
+//        String[] Precios = {"100", "200", "150", "300", "150"};
+//
+//        int a = origen.getSelectedItemPosition();
+//        int c = destino.getSelectedItemPosition();
+//        int Tot = Integer.parseInt(Precios[a] + Precios[c]);
 
         origen.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
@@ -78,6 +83,12 @@ public class Venta extends AppCompatActivity {
                 dialogohora();
             }
         });
+
+//        if(origen.equals("")||destino.equals("")||Fecha.equals("")||Hora.equals("")){
+//            Total.setText("0");
+//        }else{
+//            Total.setText(Tot);
+//        }
 
 
 
