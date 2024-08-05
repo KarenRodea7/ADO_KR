@@ -48,7 +48,7 @@ public class Venta extends AppCompatActivity {
         origen.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                String origin = parent.getItemAtPosition(position).toString();
+
             }
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
@@ -58,7 +58,7 @@ public class Venta extends AppCompatActivity {
         destino.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                String destiny = parent.getItemAtPosition(position).toString();
+
             }
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
